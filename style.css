@@ -53,7 +53,7 @@ h1{text-align:  center;
 }
 @media (max-width:506px) {
     .Electronics,.Clothing,.home{
-        height: 300px;
+        height: 310px;
         width: 314px;
     }
     .navigator{
