@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#home{
+    background-color: yellow;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+h1{text-align:  center;
+}
+#navigator{
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+}
+.navigator{
+    width: 150px;
+}
+#Electronics,#Clothing,#Home{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 3px;
+}
+#elec-items,#clot-items,#home-items{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: green;
+}
+.Electronics,.Clothing,.home{
+
+ height: 300px;
+ width: 500px;
+ border: 1px solid black;
+ margin: 5px;
+ 
+ background-color: aqua;
+}
+@media (max-width:950px){
+ #elec-items,#clot-items,#home-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+}
+@media (max-width:506px) {
+    .Electronics,.Clothing,.home{
+        height: 300px;
+        width: 314px;
+    }
+    .navigator{
+        width: 100px;
+    }
+}
+footer{
+    background-color: red;
+    text-align: center;
+}
