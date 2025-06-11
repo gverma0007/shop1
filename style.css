@@ -64,3 +64,6 @@ footer{
     background-color: red;
     text-align: center;
 }
+.Electronics:hover,.Clothing:hover,.home:hover{
+    box-shadow: 0px 0px 5px 6px aqua;
+}
